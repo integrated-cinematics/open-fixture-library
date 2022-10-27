@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/OpenLightingProject/open-fixture-library/master/schemas/fixture.json",
+  "name": "LS 120d II",
+  "categories": [
+    "Color Changer"
+  ],
+  "meta": {
+    "authors": [
+      "Showrunner"
+    ],
+    "createDate": "2022-09-08",
+    "lastModifyDate": "2022-09-08"
+  },
+  "helpWanted": "",
+  "links": {
+    "other": [
+      "https://www.aputure.com/wp-content/uploads/2021/02/LS-120d-II-DMX-Table.xlsx"
+    ]
+  },
+  "availableChannels": {
+    "Dimmer": {
+      "defaultValue": 0,
+      "highlightValue": 255,
+      "capability": {
+        "type": "Intensity"
+      }
+    },
+    "Frequency": {
+      "defaultValue": 0,
+      "capability": {
+        "type": "Generic",
+        "comment": "0…360°"
+      }
+    }
+  },
+  "modes": [
+    {
+      "name": "Default",
+      "shortName": "Default",
+      "channels": [
+        "Dimmer",
+        "Frequency"
+      ]
+    }
+  ]
+}
